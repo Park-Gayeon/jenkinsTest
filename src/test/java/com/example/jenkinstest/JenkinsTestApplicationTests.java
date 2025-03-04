@@ -9,6 +9,7 @@ class JenkinsTestApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("Hello, Jenkins!");
+        System.err.println("변경사항을 추가한다");
     }
 
 }
